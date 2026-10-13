@@ -9,8 +9,8 @@ $font-size-base: 16;
 $code-color: #247ba0;
 $theme-colors: (
   // https://coolors.co/app/247ba0-70c1b3-b2dbbf-f3ffbd-ff1654
-  "primary": #ff691d,
-  "danger": #ff1654
+  "primary": #3d5aeb,
+  "danger": #bf89e7
 );
 
 @import "bootstrap/bootstrap";
@@ -25,15 +25,15 @@ p {
 }
 
 .site-footer {
-  border-top: 2px solid $light;
+  border-top: 2px solid $dark;
 }
 
 .site-header {
-  border-bottom: 2px solid $light;
+  border-bottom: 2px solid $dark;
 }
 
 .img-cover {
-  max-height: 250px;
+  max-height: 300px;
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
