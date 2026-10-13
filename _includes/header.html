@@ -15,11 +15,19 @@
 		<div class="collapse navbar-collapse" id="navbarToggler">
 			<ul class="navbar-nav mr-auto">
 				<li>
-					<a class="nav-link" href="/team">Team</a>
+					<a class="nav-link {% if page.url contains '/team' %}active{% endif %}" href="/team">Team</a>
 				</li>
 
 				<li>
-					<a class="nav-link" href="/publications">Publications</a>
+					<a class="nav-link {% if page.url == '/publications/' %}active{% endif %}" href="/publications">Publications</a>
+				</li>
+
+				<li>
+					<a class="nav-link {% if page.url == '/research/' %}active{% endif %}" href="/research">Research</a>
+				</li>
+
+				<li>
+					<a class="nav-link {% if page.url == '/contact/' %}active{% endif %}" href="/contact">Contact</a>
 				</li>
 			</ul>
 		</div>
