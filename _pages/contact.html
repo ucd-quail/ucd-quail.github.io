@@ -1,0 +1,46 @@
+---
+title: Contact
+layout: page
+excerpt: QUAIL -- Contact.
+permalink: /contact/
+---
+
+<p>
+    Want to get in touch? Fill in the form below and it will open in your email
+    client, or write to us directly at
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+</p>
+
+<form id="contact-form">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="from">Your email</label>
+        <input type="email" class="form-control" id="from" name="from" required>
+    </div>
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" class="form-control" id="subject" name="subject" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send email</button>
+</form>
+
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        var name = document.getElementById('name').value;
+        var from = document.getElementById('from').value;
+        var subject = document.getElementById('subject').value;
+        var message = document.getElementById('message').value;
+        var body = 'From: ' + name + ' <' + from + '>\n\n' + message;
+        var mailto = 'mailto:{{ site.email }}?subject=' +
+            encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+        window.location.href = mailto;
+    });
+</script>

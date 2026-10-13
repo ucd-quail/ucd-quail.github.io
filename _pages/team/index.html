@@ -5,26 +5,26 @@ permalink: /team/
 ---
 
 <!-- Staff -->
-<h2 class="mb-3"><a id="staff"></a>Staff</h2>
+<h2 class="mb-3 text-center"><a id="staff"></a>Faculty & Lab Leadership</h2>
 
 {% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
 <ul class="list-unstyled">
-<div class="row">
+<div class="row justify-content-center">
 {% for member in members%}
     {% assign ncols = 2 %}
     {% assign i = forloop.index0 | modulo: ncols %}
-        <div class="col">
+        <div class="col-auto">
             {%- include team_member.html -%}
         </div>
     {% if i == 1 %}
-        </div><div class="row">
+        </div><div class="row justify-content-center">
     {% endif %}
 {% endfor %}
 </div>
 </ul>
 
 <!-- Researchers -->
-<h2 class="mb-3"><a id="researcher"></a>Researchers</h2>
+<h2 class="mb-3"><a id="researcher"></a>Postdoctoral Researchers</h2>
 
 {% assign members = site.posts | where: 'category', 'postdoc' | sort: 'date' %}
 <ul class="list-unstyled">

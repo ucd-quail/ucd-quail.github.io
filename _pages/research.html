@@ -1,0 +1,37 @@
+---
+title: Research
+layout: page
+excerpt: QUAIL -- Research.
+permalink: /research/
+---
+
+<p>
+    Research projects and open-source code from QUAIL.
+</p>
+
+{% if site.data.research.size > 0 %}
+<ul class="list-unstyled">
+    {% for project in site.data.research %}
+    <div class="card mb-3">
+        <div class="card-body">
+            <div class="media">
+                <div class="media-body">
+                    <h5 class="card-title mt-0">
+                        <a href="{{ project.Url }}" target="_blank" rel="noopener noreferrer">{{ project.Title }}</a>
+                    </h5>
+                    <p class="card-text mb-0">{{ project.Description }}</p>
+                </div>
+                {% if project.Thumbnail %}
+                <img class="align-self-start ml-3"
+                     src="{{ project.Thumbnail }}"
+                     style="max-width: 25%;"
+                     alt="{{ project.Title }}">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</ul>
+{% else %}
+<p class="text-muted">Projects coming soon.</p>
+{% endif %}
