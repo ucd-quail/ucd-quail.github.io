@@ -1,0 +1,14 @@
+[
+    {
+        "Title": "HADOF",
+        "Description": "Hamiltonian Auto-Decomposition Optimisation Framework for scalable quantum optimisation.",
+        "Url": "https://github.com/Namasi-PhD/HADOF",
+        "Thumbnail": "/assets/images/hadof.png"
+    },
+    {
+        "Title": "Quantum-Assisted Genome Assembly Pipeline",
+        "Description": "Quantum Genome Assembly of a Complete Bacterial Chromosome from Real Sequencing Data on NISQ Hardware.",
+        "Url": "https://github.com/Namasi-PhD/Quantum-Genome-Assembly",
+        "Thumbnail": "/assets/images/quantum_genome.png"
+    }
+]
