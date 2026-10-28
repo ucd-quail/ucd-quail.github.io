@@ -10,5 +10,10 @@
         "Description": "Quantum Genome Assembly of a Complete Bacterial Chromosome from Real Sequencing Data on NISQ Hardware.",
         "Url": "https://github.com/Namasi-PhD/Quantum-Genome-Assembly",
         "Thumbnail": "/assets/images/quantum_genome.png"
+    },
+    {
+        "Title": "Quantum-control-and-landscape",
+        "Description": "Exploring quantum control landscape and solution space complexity through optimization algorithms and dimensionality reduction.",
+        "Url": "https://github.com/Hafdream/Quantum-control-and-landscape"
     }
 ]
