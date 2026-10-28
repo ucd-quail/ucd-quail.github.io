@@ -1,0 +1,69 @@
+@article{sankar2025scalable,
+  title={Scalable Quantum Optimisation using HADOF: Hamiltonian Auto-Decomposition Optimisation Framework},
+  author={Sankar, Namasi G and Miliotis, Georgios and Caton, Simon},
+  journal={arXiv preprint arXiv:2510.02926},
+  year={2025}
+}
+
+@article{fentaw2026adaptive,
+  title={Adaptive Reinforcement Learning for Robust Open Quantum System Control: A Multi-Task Framework with Temporal Optimization},
+  author={Fentaw, Haftu W and Campbell, Steve and Caton, Simon},
+  journal={arXiv preprint arXiv:2605.26925},
+  year={2026}
+}
+
+@article{sankar2026towards,
+  title={Towards High Performance Quantum Computing (HPQ): Parallelisation of the Hamiltonian Auto Decomposition Optimisation Framework (HADOF)},
+  author={Sankar, Namasi G and Miliotis, Georgios and Caton, Simon},
+  journal={arXiv preprint arXiv:2604.27836},
+  year={2026}
+}
+
+@article{g2026scaling,
+  title={Scaling Quantum Optimisation Beyond Hardware Limits for Real-World Scientific Workloads: Genome Assembly on Current Quantum Hardware},
+  author={G Sankar, Namasi and Miliotis, Georgios and Caton, Simon},
+  journal={bioRxiv},
+  pages={2026--09},
+  year={2026},
+  publisher={Cold Spring Harbor Laboratory}
+}
+
+@article{fentaw2025exploring,
+  title={Exploring quantum control landscape and solution space complexity through optimization algorithms and dimensionality reduction},
+  author={Fentaw, Haftu W and Campbell, Steve and Caton, Simon},
+  journal={Scientific Reports},
+  volume={15},
+  number={1},
+  pages={14605},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{selig2025challenges,
+  title={On the Challenges of Quantum Circuit Encoding Using Deep and Reinforcement Learning},
+  author={Selig, Patrick and Murphy, Niall and Redmond, David and Caton, Simon},
+  journal={IEEE Access},
+  volume={13},
+  pages={75220--75234},
+  year={2025},
+  publisher={IEEE}
+}
+
+@article{selig2023deepqprep,
+  title={Deepqprep: Neural network augmented search for quantum state preparation},
+  author={Selig, Patrick and Murphy, Niall and Redmond, David and Caton, Simon},
+  journal={IEEE Access},
+  volume={11},
+  pages={76388--76402},
+  year={2023},
+  publisher={IEEE}
+}
+
+@inproceedings{selig2021case,
+  title={A case for noisy shallow gate-based circuits in quantum machine learning},
+  author={Selig, Patrick and Murphy, Niall and Sundareswaran, Ashwin and Redmond, David and Caton, Simon},
+  booktitle={2021 International Conference on Rebooting Computing (ICRC)},
+  pages={24--34},
+  year={2021},
+  organization={IEEE}
+}
