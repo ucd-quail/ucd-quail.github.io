@@ -10,7 +10,7 @@ title: QUAIL
 author: QUAIL
 email: simon.caton@ucd.com
 description: > # this means to ignore newlines until "baseurl:"
-  QUantum Algorithmic Intelligence Laboratory, University College Dublin. Our research group is focused on the development of quantum algorithms and their applications to real-world problems. We are particularly interested in the intersection of quantum computing, machine learning, and optimization.
+  QUantum Algorithmic Intelligence Laboratory, University College Dublin. Our research group is focused on the development of quantum algorithms and their applications to real-world problems. We are particularly interested in the intersection of quantum computing, machine learning, and optimisation.
 baseurl: ""
 url: "http://ucd-quail.github.io"
 

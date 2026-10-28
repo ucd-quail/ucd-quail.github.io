@@ -1,6 +1,6 @@
-# RT2 Lab Website
+# QUAIL Website
 
-This website is built with [Jekyll](https://jekyllrb.com/).
+This website is built with [Jekyll](https://jekyllrb.com/). The template was forked from [RT2Lab](https://github.com/rt2lab/rt2lab.github.io)
 
 ## Setup
 
