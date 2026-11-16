@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", ">= 3.6.3"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 3.9.0"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
 gem "kramdown", ">= 2.3.0"
 gem "nokogiri", ">= 1.11.0"
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
+
+gem "webrick", "~> 1.9", :group => :":jekyll_plugins"
