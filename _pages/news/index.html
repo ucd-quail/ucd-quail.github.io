@@ -1,0 +1,33 @@
+---
+title: News
+layout: page
+permalink: /news/
+---
+
+{% assign posts = site.posts | where: 'category', 'news' | sort: 'date' | reverse %}
+
+<ul class="list-unstyled">
+{% for post in posts %}
+    <li class="card mb-3 shadow-sm">
+        <div class="card-body">
+            <div class="media">
+                <div class="media-body mr-3">
+                    <h5 class="card-title mt-0">
+                        <a href="{{ post.url }}" class="text-body">{{ post.title }}</a>
+                    </h5>
+                    <p class="card-subtitle mb-2 text-muted">{{ post.date | date: "%B %-d, %Y" }}</p>
+                    {% if post.excerpt %}
+                    <p class="card-text mb-1">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+                    {% endif %}
+                    <a href="{{ post.url }}" class="card-link">Read more</a>
+                </div>
+                <a href="{{ post.url }}" class="flex-shrink-0 ml-3 align-self-center" style="width: 30%;">
+                    <img class="img-fluid"
+                         src="/assets/images/news/{{ post.image }}"
+                         alt="{{ post.title }}">
+                </a>
+            </div>
+        </div>
+    </li>
+{% endfor %}
+</ul>
