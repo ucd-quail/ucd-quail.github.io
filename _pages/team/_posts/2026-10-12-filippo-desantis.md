@@ -2,7 +2,7 @@
 layout: member
 category: phd-student
 title: Filippo Desantis
-image: filippo.jpeg
+image: filippo.jpg
 role: PhD Student
 permalink: 'team/filippo-desantis'
 social:
